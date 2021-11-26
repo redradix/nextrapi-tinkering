@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kata-responsive-image",
+      "handler": "kata-responsive-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kata-responsive-image",
+      "handler": "kata-responsive-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kata-responsive-image",
+      "handler": "kata-responsive-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
