@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Aprox01 = ({ image }) => {
+const Aprox02 = ({ image }) => {
   const API_ORIGIN = process.env.NEXT_PUBLIC_API_ORIGIN
 
   return (
@@ -35,4 +35,4 @@ const Aprox01 = ({ image }) => {
   )
 }
 
-export default Aprox01
+export default Aprox02
