@@ -1,4 +1,9 @@
 {
+  "root": true,
   "extends": ["next", "next/core-web-vitals"],
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "ignorePatterns": ["*.stories.js"],
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
 }
