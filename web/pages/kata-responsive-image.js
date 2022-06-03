@@ -14,12 +14,12 @@ export default function KataResposiveImage({ data }) {
           <code>{JSON.stringify(data.image ?? null, null, 2)}</code>
         </pre>
       </details>
-
+      {/*
       <h2>Aproximación 01</h2>
       {data.image ? <Aprox01 image={data.image} /> : null}
 
       <h2>Aproximación 02</h2>
-      {data.image ? <Aprox02 image={data.image} /> : null}
+      {data.image ? <Aprox02 image={data.image} /> : null} */}
 
       <h2>Aproximación 03</h2>
       {data.image ? <Aprox03 image={data.image} /> : null}
